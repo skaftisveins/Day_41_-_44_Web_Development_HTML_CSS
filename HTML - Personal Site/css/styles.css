@@ -69,15 +69,33 @@ a:hover {
   background-color: rgb(53, 53, 53);
 }
 
+.education-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
 .intro {
   width: 30%;
   margin: auto;
 }
 
-.hoppogskopp {
-  width: 25%;
-  float: right;
+.hoppogskopp-img {
+  width: 30%;
+  float: left;
   margin-right: 30px;
+}
+
+.mountain-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
 
 .link {
@@ -96,13 +114,6 @@ p {
 
 .profile-img {
   border: solid;
-}
-
-.mountain-img {
-  /* height: 100px; */
-  display: block;
-  margin: auto;
-  width: 20%;
 }
 
 .computer-img {
