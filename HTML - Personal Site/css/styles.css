@@ -1,20 +1,65 @@
 /* TAG SELECTORS */
 
 body {
-  background-color: lightslategrey;
+  color: #40514e;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-family: Roboto, sans-serif;
 }
+
+h1 {
+  color: #6eb7bb;
+  font-size: 6rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento';
+}
+
+h2 {
+  color: #16585c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-style: oblique;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #4b5466;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #053335;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/* CLASS SELECTORS */
 
 .top-container {
   background-color: black;
-  color: white;
-  padding-top: 100px;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 50px;
 }
 
 .middle-container {
-  margin: 2%;
+  margin: 100px 0;
 }
 
 .bottom-container {
@@ -22,19 +67,18 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgb(53, 53, 53);
-  /* margin: 2%; */
 }
 
-hr {
-  border-style: dashed solid;
-  width: 4%;
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
-h3 {
-  font-style: oblique;
+.hoppogskopp {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
 }
-
-/* CLASS SELECTORS */
 
 .link {
   font-style: italic;
@@ -44,8 +88,10 @@ h3 {
 .footer-link,
 p {
   font-style: italic;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding: 0.3rem;
+  text-decoration: none;
+  line-height: 2;
 }
 
 .profile-img {
@@ -65,6 +111,18 @@ p {
   width: 30%;
 }
 
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
 /* .top-container {
   height: 200px;
   width: 200px;
@@ -80,7 +138,10 @@ p {
 #sub-title {
   font-weight: normal;
   line-height: 2;
+  /* width: 80%;
+  margin: 0 0 auto; */
 }
+
 /* BORDER-CHALLENGE */
 
 /* .container {
